@@ -65,7 +65,8 @@
                         <div class="flex flex-col gap-4">
                             <h3 class="text-lg text-gray-600 font-medium">عن متجرنا</h3>
                             <div class="flex flex-col gap-2">
-                                <p class="lg:text-base text-sm text-gray-400 max-w-[300px]">متجر سلة من افضل المتاجر التى تقوم ببيع
+                                <p class="lg:text-base text-sm text-gray-400 max-w-[300px]">متجر سلة من افضل المتاجر التى
+                                    تقوم ببيع
                                     المنتجات الرقمية بأفضل الاسعار وماركات عالمية تسوق الان واطلع على المزيد من التصاميم
                                     واستمتع بأفضل العروض والخصومات</p>
                             </div>

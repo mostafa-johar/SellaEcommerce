@@ -170,7 +170,7 @@
                     <!-- Products -->
                     <article class="products">
                         <section class="grid lg:gap-6"
-                            :class="netOne.active ? 'lg:grid-cols-3 grid-cols-2 ' : 'grid-cols-1'">
+                            :class="netOne.active ? 'lg:grid-cols-3 md:grid-cols-2 grid-cols-1 ' : 'grid-cols-1'">
                             <!-- box -->
                             <div class="grid  rounded-md p-2" v-for="(product, index) in products" :key="product.id"
                                 v-show="((index) < Number(num))" :class="netOne.active ? 'grid-cols-1' : 'grid-cols-2'">

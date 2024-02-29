@@ -1,5 +1,5 @@
 <template>
-    <div class="flex md:gap-2 gap-1 justify-start lg:p-3">
+    <div class="flex md:gap-2 gap-1 justify-start p-3">
         <button
             class="flex justify-center items-center gap-2 border-2  lg:bg-teal-500 hover:bg-teal-600 flex-1 lg:p-3 p-2"
             @click.once="addCountCart(product)">

@@ -49,10 +49,10 @@
                                 <img :src="getImg('add.png')" alt="add" class="object-contain select-none cursor-pointer"
                                     @click="add(index)">
                                 <img :src="getImg('Line-3.png')" alt="line" class="object-contain select-none">
-                                <p>{{ product.quantity  }}</p>
+                                <p>{{ product.quantity }}</p>
                                 <img :src="getImg('Line-3.png')" alt="line" class="object-contain select-none">
-                                <img :src="getImg('minus.png')" alt="minus" class="object-contain select-none cursor-pointer"
-                                    @click="minus(index)">
+                                <img :src="getImg('minus.png')" alt="minus"
+                                    class="object-contain select-none cursor-pointer" @click="minus(index)">
 
                             </div>
                             <!-- 3 -->
@@ -114,8 +114,8 @@ import { storeToRefs } from 'pinia';
 
 const store = useStore()
 
-const { deleteProduct ,add , minus , getImg } = store
-const { cartBox , totalPrice } = storeToRefs(store) 
+const { deleteProduct, add, minus, getImg } = store
+const { cartBox, totalPrice } = storeToRefs(store)
 
 
 
