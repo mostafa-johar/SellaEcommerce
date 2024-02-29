@@ -195,7 +195,7 @@ const toggleBTN = ref(false)
                         <li class="md:hidden block">
                             <p class="text-gray-600 font-semibold text-sm py-4 border-b-2">جميع الاقسام</p>
                         </li>
-                        <li class="flex gap-1 items-center" v-for="(navlink, index) in navLinks" :key="index">
+                        <li class="flex gap-1 items-center" v-for="(navlink, index) in navLinks" :key="index" @click="toggleBTN = !toggleBTN">
                             <router-link to="/AllProducts" class="md:text-white text-base">{{ navlink.name }}</router-link>
                             <img src="@/assets/imgs/arrowDown.png" alt="arrowDown" class="object-contain">
                         </li>

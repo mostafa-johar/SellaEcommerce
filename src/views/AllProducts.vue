@@ -24,11 +24,11 @@
                 ---  right Aside
                   ==================== -->
                 <aside
-                    class="lg:flex flex-col basis-[20%] gap-4 border-[1px] h-full transition-all bg-white z-10 absolute top-0 lg:relative"
+                    class="lg:flex flex-col basis-[20%] gap-4 border-[1px] h-full transition-all bg-white absolute top-0 lg:relative"
                     :class="widthToggle ? ' right-[-294px] lg:right-0' : ' right-0'">
                     <p class="text-gray-600 font-semibold text-sm py-4 px-4 border-b-2">فلترة المنتجات</p>
                     <span
-                        class="absolute md:top-[9%] top-[6%] -left-[30px] w-[30px] h-[30px] rounded-ee-md rounded-se-md bg-teal-400 hover:bg-teal-600 text-white flex justify-center items-center select-none cursor-pointer lg:hidden"
+                        class="absolute md:top-[9%] top-[182px] -left-[30px] w-[30px] h-[30px] rounded-ee-md rounded-se-md bg-teal-400 hover:bg-teal-600 text-white flex justify-center items-center select-none cursor-pointer lg:hidden"
                         v-on:click="widthToggle = !widthToggle">x</span>
                     <!-- 1 Categories -->
 
