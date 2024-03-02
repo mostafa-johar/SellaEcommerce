@@ -4,5 +4,3 @@
     <router-link to="/" class="text-base text-teal-500">Go Home</router-link>
   </section>
 </template>
-
-
