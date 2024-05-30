@@ -241,6 +241,7 @@ export const useStore = defineStore("products", () => {
   // add product to cart
   function addCountCart(n) {
     cartBox.value.push(n);
+    alert(`تم إضافة : ${n.decripeOne}`)
   }
   // total price
   const totalPrice = computed(() => {
